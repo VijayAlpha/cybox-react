@@ -24,6 +24,7 @@
     color: #101511;
     font-weight: 700;
     font-family: $font-main;
+    z-index: -1;
   }
   @include tablet {
     margin-bottom: 30px;
