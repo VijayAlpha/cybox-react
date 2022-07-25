@@ -57,15 +57,15 @@ function RoadMap(props) {
                                     <SwiperSlide key={item.id}>
                                         <div className="box">
                                             <div className="rm-box">
-                                                <div className={`corner-box ${item.style}`}>
+                                                <div className={`corner-box ${item.style} text-center`} >
                                                 <h5>{item.time}</h5>
-                                                <ul>
+                                                {/* <ul>
                                                     {
                                                         item.list.map((li,idx) => (
                                                             <li key={idx}>{li.text}</li>
                                                         ))
                                                     }
-                                                </ul>
+                                                </ul> */}
                                                 </div>
                                             </div>
                                             <div className="icon"></div>

@@ -19,7 +19,7 @@ function SliderItem(props) {
 
     return (
         <div className={`box-slider ${item.classAction}`}>
-            <img className='bg-slider' src={item.bgImg} alt="cybox" />
+            <div className='bg-slider' alt="cybox" />
             <div className="box-slider__main">
                 <div className="container">
                     <div className="row">
