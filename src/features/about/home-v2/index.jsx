@@ -2,7 +2,6 @@ import React , {useState} from 'react';
 import PropTypes from 'prop-types';
 import '../styles.scss'
 import AboutItem from '../about-item';
-import Button from '../../../components/button';
 
 About.propTypes = {
     data : PropTypes.array,
@@ -15,8 +14,8 @@ function About(props) {
     const [dataBlock] = useState(
         {
             subtitle : 'About us',
-            title: 'What is cybox?',
-            desc : 'Maecenas sit pretium, cras in. In quisque sem id eget. In vel gravida ut adipiscing integer felis.'
+            title: 'What is MZOID?',
+            desc : 'Are you searching for a virtual environment that would allow you to educate, entertain, sell, and promote all your goals on a single platform? Then, welcome to the world of MZOID – A one-stop platform to connect, communicate, and convert all your real-world activities into virtual ones! MZOID is undoubtedly your finest choice if you want an immersive metaverse experience.'
         }
     )
 

@@ -13,8 +13,8 @@ function Work(props) {
 
     const [dataBlock] = useState({
         subtitle: 'How we work',
-        title: 'BECOME OUR MEMBER',
-        desc: 'Maecenas sit pretium, cras in. In quisque sem id eget. In vel gravida ut adipiscing integer felis. Id ac non arcu facilisi proin ultrices sed. Id accumsan quam viverra ante in id integer ut. Volutpat lobortis dolor etiam dis interdum tincidunt senectus.'
+        title: 'So what can MZOID do for you?',
+        desc: 'Take technology to the next level with MZOID. The following are some alluring qualities that may entice you to handpick MZOID as your probably the most popular metaverse platform:'
     })
     return (
         <section className="tf-section how-we-work">
