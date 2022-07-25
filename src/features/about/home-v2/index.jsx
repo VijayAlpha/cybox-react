@@ -44,9 +44,9 @@ function About(props) {
                     </div>
 
                     <div className="col-md-12">
-                        <div className="btn-about" data-aos="fade-up" data-aos-duration="800">
+                        {/* <div className="btn-about" data-aos="fade-up" data-aos-duration="800">
                             <Button title='get Nfts' path='#' />
-                        </div>
+                        </div> */}
                     </div>
                 </div>
             </div>

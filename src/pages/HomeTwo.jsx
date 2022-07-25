@@ -28,7 +28,7 @@ function HomeTwo(props) {
 
             <RoadMap data={dataRoadmap} />
 
-            <Project data={dataProject} />
+            {/* <Project data={dataProject} /> */}
             
             <Work data={dataWork} />
 
@@ -36,7 +36,7 @@ function HomeTwo(props) {
 
             <Partner data={dataPartner} />
 
-            <Blog data={dataBlog} />
+            {/* <Blog data={dataBlog} /> */}
 
             <FAQ data={dataFaq} />
         </div>
