@@ -40,7 +40,7 @@ const Header = () => {
                     <div className="header__logo">
                         <NavLink to="/"><img src={logo} alt="Crybox" /></NavLink>
                     </div>
-                    <nav id="main-nav" className={`main-nav ${menuActive ? 'active' : ''}`} >
+                    {/* <nav id="main-nav" className={`main-nav ${menuActive ? 'active' : ''}`} >
                         <ul id="menu-primary-menu" className="menu">
 
                             {
@@ -64,8 +64,8 @@ const Header = () => {
                                 ))
                             }
                         </ul>
-                    </nav>
-                    <Button title='join discord' path='/contact' />
+                    </nav> */}
+                    <Button title='Contact Us' path='/contact' />
 
                     <div className={`mobile-button ${menuActive ? 'active' : ''}`} onClick={handleMenuActive}><span></span></div>
                 </div>

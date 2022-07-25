@@ -3,6 +3,7 @@ import Slider from '../components/slider/home-v2';
 import dataSlider from '../assets/fake-data/data-slider';
 import About from '../features/about/home-v2';
 import dataAbout from '../assets/fake-data/data-about';
+import Vision from '../features/vision';
 import RoadMap from '../features/roadmap/home-v2';
 import dataRoadmap from '../assets/fake-data/data-roadmap';
 import Project from '../features/project/home-v2';
@@ -25,6 +26,8 @@ function HomeTwo(props) {
             <Slider data={dataSlider} />
 
             <About data={dataAbout} />
+
+            <Vision data={dataAbout} />
 
             <Work data={dataWork} />
 

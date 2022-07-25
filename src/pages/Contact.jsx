@@ -5,7 +5,7 @@ import PageTitle from '../components/pagetitle';
 function Contact(props) {
     return (
         <div>
-            <PageTitle title='Contact Uss' />
+            <PageTitle title='Contact Us' />
 
             <section className="tf-section tf-contact">
                 <div className="container">
