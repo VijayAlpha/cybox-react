@@ -1,18 +1,18 @@
 const dataAbout = [
     {
         id: 1,
-        title: 'Initiate ',
+        title: 'INITIATE',
         desc: 'Start from where you are',
         class: 'active'
     },
     {
         id: 2,
-        title: 'Interconnect',
+        title: 'INTERCONNECT',
         desc: 'Connect, Communicate and collaborate',
     },
     {
         id: 3,
-        title: 'Innovate',
+        title: 'INNOVATE',
         desc: 'Create an innovation that inspires the world',
     },
 ]
