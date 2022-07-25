@@ -26,12 +26,12 @@ function HomeTwo(props) {
 
             <About data={dataAbout} />
 
+            <Work data={dataWork} />
+
             <RoadMap data={dataRoadmap} />
 
             {/* <Project data={dataProject} /> */}
             
-            <Work data={dataWork} />
-
             <Team data={dataTeam} />
 
             <Partner data={dataPartner} />

@@ -20,8 +20,8 @@ const dataSlider = [
     },
     {
         id: 3,
-        title: 'CYbox nft collectionS 3333 for everyone',
-        desc : 'Nulla ornare sagittis placerat nunc sit tempus enim. Accumsan pellentesque ipsum felis tristique at proin vel turpis.',
+        title: 'Say hi to Multi-environments!',
+        desc : 'Initiate - Interconnect - Innovate',
         bgImg: bgImg3,
         classAction: 'three'
     },
