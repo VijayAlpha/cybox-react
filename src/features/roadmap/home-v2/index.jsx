@@ -19,8 +19,8 @@ function RoadMap(props) {
 
     const [dataBlock] = useState(
         {
-            subtitle: 'ROADMAP',
-            title: 'cybox Timeline'
+            subtitle: 'Platforms',
+            title: 'where MZOID is accessible'
         }
     )
 

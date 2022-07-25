@@ -33,45 +33,6 @@ const dataPartner = [
     {
         img: img5,
     },
-    {
-        img: img6,
-    },
-    {
-        img: img7,
-    },
-    {
-        img: img8,
-    },
-    {
-        img: img9,
-    },
-    {
-        img: img10,
-    },
-    {
-        img: img11,
-    },
-    {
-        img: img12,
-    },
-    {
-        img: img13,
-    },
-    {
-        img: img14,
-    },
-    {
-        img: img15,
-    },
-    {
-        img: img16,
-    },
-    {
-        img: img17,
-    },
-    {
-        img: img18,
-    },
 ]
 
 export default dataPartner;
