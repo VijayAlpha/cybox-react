@@ -13,14 +13,14 @@ const dataSlider = [
     },
     {
         id: 2,
-        title: 'CYbox nft collectionS for everyone',
+        title: 'CYbox nft collectionS 2222 for everyone',
         desc : 'Nulla ornare sagittis placerat nunc sit tempus enim. Accumsan pellentesque ipsum felis tristique at proin vel turpis.',
         bgImg: bgImg2,
         classAction: 'two'
     },
     {
         id: 3,
-        title: 'CYbox nft collectionS for everyone',
+        title: 'CYbox nft collectionS 3333 for everyone',
         desc : 'Nulla ornare sagittis placerat nunc sit tempus enim. Accumsan pellentesque ipsum felis tristique at proin vel turpis.',
         bgImg: bgImg3,
         classAction: 'three'

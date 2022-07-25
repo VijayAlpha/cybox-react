@@ -19,11 +19,11 @@ function Slider(props) {
                 modules={[Navigation,  Scrollbar, A11y ]}
                     spaceBetween={0}
                     slidesPerView={1}
-                    navigation
-                    scrollbar={{ draggable: true }}
+                    // navigation
+                    scrollbar={{ draggable: false }}
                 >
                 {
-                    data.slice(1,4).map(item => (
+                    data.slice(2,3).map(item => (
                         <SwiperSlide key={item.id}>
                             <SliderItem item={item} />
                         </SwiperSlide>
