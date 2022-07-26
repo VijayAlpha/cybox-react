@@ -27,8 +27,8 @@ function Partner(props) {
                             <h4 className="title">MZOID PARTNERS</h4>
                         </div>
                     </div>
-                    <div className="col-md-12">
-                        <div className="item-parner" data-aos="fade-up" data-aos-duration="800">
+                    <div className="col-md-12 center-div">
+                        <div className="item-partner" data-aos="fade-up" data-aos-duration="800">
                             <Swiper
                                 modules={[  Scrollbar, A11y ]}
                                     spaceBetween={60}
@@ -43,7 +43,7 @@ function Partner(props) {
                                         991: {
                                             slidesPerView: 6,
                                         },
-                                    }}
+                                    }}  
                                 >
                                 {
                                     data.slice(0,9).map((item,idx) => (

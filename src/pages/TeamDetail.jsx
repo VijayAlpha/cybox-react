@@ -12,7 +12,7 @@ function TeamDetail(props) {
         <div>
             <PageTitle title='Our Team' />
 
-            <section className="tf-section team-detail ">
+            {/* <section className="tf-section team-detail ">
                 <div className="container">
                     <div className="row">
                         <div className="col-xl-5 col-lg-5 col-md-5">
@@ -65,7 +65,7 @@ function TeamDetail(props) {
                         </div>
                     </div>
                 </div>
-            </section>
+            </section> */}
 
             <Team data={dataTeam} />
 

@@ -1,5 +1,14 @@
 @use '../../scss/' as *;
 
+.center-div{
+    position: relative;
+
+    &__child{
+        position: absolute;
+        left: 50%;
+    }
+}
+
 .partner .swiper {
     margin-bottom: 74px;
 
