@@ -29,7 +29,7 @@ function About(props) {
                                 <p className="h8 sub-title">{dataBlock.subtitle}</p>
                                 <h4 className="title">{dataBlock.title}</h4>
                             </div>
-                            <p className='pd20'>{dataBlock.desc}</p>
+                            <p className=''>{dataBlock.desc}</p>
                         </div>
                     </div>
                     <div className="col-md-12">

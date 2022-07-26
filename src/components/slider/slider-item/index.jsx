@@ -30,7 +30,7 @@ function SliderItem(props) {
                                 <h1 className="title">{item.title}</h1>
                                 <p className="sub-title">{item.desc}</p>
                                 <div className="wrap-btn">
-                                    <Link to="#" className="tf-button-st2 btn-effect" data-toggle="modal" data-target="#popup_bid"><span className="effect">Coming Soon</span></Link>
+                                    <Link to="/coming-soon" className="tf-button-st2 btn-effect" data-toggle="modal" data-target="#popup_bid"><span className="effect">Coming Soon</span></Link>
                                 </div>
                             </div>
                         </div>
