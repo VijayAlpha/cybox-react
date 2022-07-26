@@ -14,7 +14,8 @@ function Work(props) {
     const [dataBlock] = useState({
         subtitle: 'How we work',
         title: 'So what can MZOID do for you?',
-        desc: 'Take technology to the next level with MZOID. The following are some alluring qualities that may entice you to handpick MZOID as your probably the most popular metaverse platform:'
+        desc: 'Take technology to the next level with MZOID. The following are some alluring qualities that may entice you to handpick MZOID as your probably the most popular metaverse platform:',
+        point: '●	Group chats with a customized avatar in an immersive virtual space – take advantage of the virtual space to communicate and share thoughts with tailor-made avatars'
     })
     return (
         <section className="tf-section how-we-work">
@@ -25,6 +26,7 @@ function Work(props) {
                             <p className="h8 sub-title">{dataBlock.subtitle}</p>
                             <h4 className="title m-b17">{dataBlock.title}</h4>
                             <p>{dataBlock.desc}</p>
+                            <p>{dataBlock.point}</p>
                         </div>
                     
                     </div>

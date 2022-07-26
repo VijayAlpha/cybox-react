@@ -66,8 +66,8 @@ const menus = [
     },
     {
         id: 3,
-        name: 'Milestone',
-        links: '/milestone',
+        name: 'Team',
+        links: '/team-details',
         // namesub: [
             // {
                 // id: 1,

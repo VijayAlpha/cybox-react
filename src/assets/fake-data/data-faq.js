@@ -1,35 +1,11 @@
 const dataFaq = [
     {
         id: 1,
-        title: 'What are the NFTs?',
-        content: 'Urna vitae erat et lacus, consectetur ac nulla vestibulum lobortis. Nulla dapibus urna volutpat venenatis, risus faucibus.',
+        title: 'Know what it is',
+        content: 'To explain the metaverse in its simplest form – The user navigates a virtual environment that duplicates features of the actual world by leveraging technologies such as virtual reality (VR), augmented reality (AR), artificial intelligence (AI), and digital money in the metaverse.',
+        line_2:'The metaverse is regarded as the internet’s next evolution, which is the most crucial fact for you to know. It will take many forms, including cooperative games, online forums, and business meetings where participants communicate with a digital facsimile or self-portrait as an avatar.',
         show: 'show'
-    },
-    {
-        id: 2,
-        title: 'How do i get NFTs?',
-        content: 'Urna vitae erat et lacus, consectetur ac nulla vestibulum lobortis. Nulla dapibus urna volutpat venenatis, risus faucibus.',
-    },
-    {
-        id: 3,
-        title: 'How can we buy your NFTs?',
-        content: 'Urna vitae erat et lacus, consectetur ac nulla vestibulum lobortis. Nulla dapibus urna volutpat venenatis, risus faucibus.',
-    },
-    {
-        id: 4,
-        title: 'Who are the team behind the project?',
-        content: 'Urna vitae erat et lacus, consectetur ac nulla vestibulum lobortis. Nulla dapibus urna volutpat venenatis, risus faucibus.',
-    },
-    {
-        id: 5,
-        title: 'How can we buy your NFTs?',
-        content: 'Urna vitae erat et lacus, consectetur ac nulla vestibulum lobortis. Nulla dapibus urna volutpat venenatis, risus faucibus.',
-    },
-    {
-        id: 6,
-        title: 'Who are the team behind the project?',
-        content: 'Urna vitae erat et lacus, consectetur ac nulla vestibulum lobortis. Nulla dapibus urna volutpat venenatis, risus faucibus.',
-    },
+    }
 ]
 
 export default dataFaq;

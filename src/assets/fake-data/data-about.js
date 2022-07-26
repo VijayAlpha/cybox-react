@@ -3,7 +3,7 @@ const dataAbout = [
         id: 1,
         title: 'INITIATE',
         desc: 'Start from where you are',
-        class: 'active'
+        // class: 'active'
     },
     {
         id: 2,

@@ -3,8 +3,8 @@ const dataWork = [
         id: 1,
         numb: '01',
         title: 'Create a virtual workspace  ',
-        text : 'Make remote work an effortless task and communicate with your team wherever you are.',
-        active: 'active'
+        text : 'Make remote work an effortless task and communicate with your team wherever you are in virtual workspace.',
+        // active: 'active'
     },
     {
         id: 2,

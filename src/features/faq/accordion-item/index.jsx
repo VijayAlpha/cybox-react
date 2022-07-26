@@ -12,6 +12,7 @@ function AccordionItem(props) {
     return (
         <Accordion key={item.id} title={item.title} show={item.show}>
             <p className="toggle-content">{item.content}</p>
+            <p className="toggle-content">{item.line_2}</p>
         </Accordion>
     );
 }

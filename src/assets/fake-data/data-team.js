@@ -2,15 +2,13 @@ import img1 from '../images/common/team6.png';
 import img2 from '../images/common/team7.png';
 import img3 from '../images/common/team8.png';
 import img4 from '../images/common/team9.png';
-import img5 from '../images/common/team10.png';
-import img6 from '../images/common/team11.png';
 
 const dataTeam = [
     {
         id: 1,
         img: img1,
         name: 'Esther Howard',
-        position: 'Co-founder & COO',
+        position: 'Co-founder & CEO',
         listsocial: [
             {
                 id: 1,
@@ -19,26 +17,21 @@ const dataTeam = [
             },
             {
                 id: 2,
-                icon: 'fab fa-facebook-f',
+                icon: 'fab fa-linkedin',
                 link: '#'
             },
             {
                 id: 3,
-                icon: 'fa fa-paper-plane',
+                icon: 'fab fa-instagram',
                 link: '#'
-            },
-            {
-                id: 4,
-                icon: 'fab fa-reddit',
-                link: '#'
-            },
+            }
         ]
     },
     {
         id: 2,
         img: img2,
         name: 'Devon Lane',
-        position: 'Blockchain Developer',
+        position: 'CTO',
         listsocial: [
             {
                 id: 1,
@@ -47,19 +40,14 @@ const dataTeam = [
             },
             {
                 id: 2,
-                icon: 'fab fa-facebook-f',
+                icon: 'fab fa-linkedin',
                 link: '#'
             },
             {
                 id: 3,
-                icon: 'fa fa-paper-plane',
+                icon: 'fab fa-instagram',
                 link: '#'
-            },
-            {
-                id: 4,
-                icon: 'fab fa-reddit',
-                link: '#'
-            },
+            }
         ]
     },
     {
@@ -67,7 +55,7 @@ const dataTeam = [
         img: img3,
         name: 'Ralph Edwards',
         position: 'Backend Engineer',
-        listsocial: [
+        listsocial:  [
             {
                 id: 1,
                 icon: 'fab fa-twitter',
@@ -75,19 +63,14 @@ const dataTeam = [
             },
             {
                 id: 2,
-                icon: 'fab fa-facebook-f',
+                icon: 'fab fa-linkedin',
                 link: '#'
             },
             {
                 id: 3,
-                icon: 'fa fa-paper-plane',
+                icon: 'fab fa-instagram',
                 link: '#'
-            },
-            {
-                id: 4,
-                icon: 'fab fa-reddit',
-                link: '#'
-            },
+            }
         ]
     },
     {
@@ -103,19 +86,14 @@ const dataTeam = [
             },
             {
                 id: 2,
-                icon: 'fab fa-facebook-f',
+                icon: 'fab fa-linkedin',
                 link: '#'
             },
             {
                 id: 3,
-                icon: 'fa fa-paper-plane',
+                icon: 'fab fa-instagram',
                 link: '#'
-            },
-            {
-                id: 4,
-                icon: 'fab fa-reddit',
-                link: '#'
-            },
+            }
         ]
     },
 ]

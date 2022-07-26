@@ -38,9 +38,9 @@ const Header = () => {
             <div className="container">
                 <div id="site-header-inner">
                     <div className="header__logo">
-                        <NavLink to="/"><img src={logo} alt="Crybox" /></NavLink>
+                        <NavLink to="/"><img src={logo} alt="MZIOD" /></NavLink>
                     </div>
-                    {/* <nav id="main-nav" className={`main-nav ${menuActive ? 'active' : ''}`} >
+                    <nav id="main-nav" className={`main-nav ${menuActive ? 'active' : ''}`} >
                         <ul id="menu-primary-menu" className="menu">
 
                             {
@@ -64,7 +64,7 @@ const Header = () => {
                                 ))
                             }
                         </ul>
-                    </nav> */}
+                    </nav>
                     <Button title='Contact Us' path='/contact' />
 
                     <div className={`mobile-button ${menuActive ? 'active' : ''}`} onClick={handleMenuActive}><span></span></div>

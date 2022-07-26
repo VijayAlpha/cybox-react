@@ -15,8 +15,8 @@ function About(props) {
     const [dataBlock] = useState(
         {
             subtitle : 'About us',
-            title: 'What is cybox?',
-            desc : 'Maecenas sit pretium, cras in. In quisque sem id eget. In vel gravida ut adipiscing integer felis. Id ac non arcu facilisi proin ultrices sed. Id accumsan quam viverra ante in id integer ut. Volutpat lobortis dolor etiam dis interdum tincidunt senectus.'
+            title: 'What is MZOID?',
+            desc : 'Are you searching for a virtual environment that would allow you to educate, entertain, sell, and promote all your goals on a single platform? Then, welcome to the world of MZOID – A one-stop platform to connect, communicate, and convert all your real-world activities into virtual ones! MZOID is undoubtedly your finest choice if you want an immersive metaverse experience.'
         }
     )
 
@@ -31,7 +31,7 @@ function About(props) {
                                 <h4 className="title">{dataBlock.title}</h4>
                             </div>
                             <p>{dataBlock.desc}</p>
-                                <Button title="get Nfts" path='/' />
+                                <Button title="Know more" path='/about' />
                         </div>
                     </div>
                     <div className="col-xl-7 col-md-12">

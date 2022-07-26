@@ -13,7 +13,7 @@ function FAQ(props) {
     const {data} = props;
 
     const [dataBlock] = useState({
-        subtitle: 'FAQs',
+        subtitle: 'New to the metaverse? ',
         title: 'Looking for answers?'
     })
 
@@ -24,7 +24,7 @@ function FAQ(props) {
                     <div className="col-md-12">
                         <div className="wrap-fx">
                             <div className="image-faq" data-aos="fade-up" data-aos-delay="100" data-aos-duration="1200">
-                                <img src={require ('../../../assets/images/common/imgfaq.jpg')} alt="" />
+                                <img src={require ('../../../assets/images/common/faq.jpeg')} alt="" />
                             </div>
 
                             <div className="content-faq">

@@ -3,6 +3,7 @@ import PropTypes from 'prop-types';
 import { Link } from 'react-router-dom';
 import ModalVideo from 'react-modal-video';
 import 'react-modal-video/scss/modal-video.scss' ;
+import logo from '../../../assets/images/logo/mzoid-logo-v2.png'
 // import { Modal } from "react-bootstrap";
 import './styles.scss'
 
@@ -25,6 +26,7 @@ function SliderItem(props) {
                     <div className="row">
                         <div className="col-xl-6 col-md-12">
                             <div className="content-box">
+                                <img src={logo} alt="MZIOD" />
                                 <h1 className="title">{item.title}</h1>
                                 <p className="sub-title">{item.desc}</p>
                                 <div className="wrap-btn">
@@ -34,7 +36,7 @@ function SliderItem(props) {
                         </div>
                         <div className="col-xl-6 col-md-12">
                             <div className="image">
-                                <img src={item.img} alt="cybox" />
+                                <img src={item.img} alt="mzoid" />
                             </div>
                         </div>
                     </div>
