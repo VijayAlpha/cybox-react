@@ -46,7 +46,9 @@ function Contact(props) {
                                     <div className="mail">
                                         <h6>Contact Us</h6>
                                         <ul>
-                                            <li>+1 666 8888</li>                                        </ul>
+                                            <li>+91 6379248007</li> 
+                                            <li>reachme@mzoid.com</li>
+                                        </ul>
                                     </div>
                                 </div>
                                 <div className="flat-map wow fadeIn animated d-flex justify-content-center " data-wow-delay="0.3ms" data-wow-duration="1000ms">
