@@ -53,7 +53,7 @@ const dataTeam = [
     {
         id: 3,
         img: img3,
-        name: 'Vijay',
+        name: 'Vijay M',
         position: 'Web Developer',
         listsocial:  [
             {

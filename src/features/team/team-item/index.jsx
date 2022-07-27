@@ -1,6 +1,5 @@
 import React from 'react';
 import PropTypes from 'prop-types';
-import { Link } from 'react-router-dom';
 
 import './styles.scss';
 
@@ -22,7 +21,7 @@ function TeamItem(props) {
                     {
                         item.listsocial.map(icon => (
                             <li key={icon.id}>
-                                <Link to={icon.link}><i className={icon.icon}></i></Link>
+                                <a href={icon.link} rel="noreferrer" target="_blank"><i className={icon.icon}></i></a>
                             </li>
                         ))
                     }

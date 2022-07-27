@@ -72,12 +72,12 @@
         @include flex(center, center);
         width: 28px;
         height: 28px;
-        background: rgb(255 251 69 / 50%);
+        background: rgba(255, 251, 69, 0.5);
         border-radius: 8px;
         color: #fff;
         font-size: 14px;
         &:hover {
-          background: rgba(20, 194, 163, 1);
+          background: rgb(209, 196, 10);
         }
       }
     }
