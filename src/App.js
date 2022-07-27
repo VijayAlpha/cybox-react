@@ -1,5 +1,5 @@
 
-import {React , useEffect} from 'react';
+import {React , useEffect, useState } from 'react';
 import AOS from 'aos';
 import { Route, Routes } from 'react-router-dom';
 import Header from './components/header';
@@ -15,6 +15,7 @@ function App() {
           duration : 2000
         }); 
       }, []);
+
 
     return (
         <>
