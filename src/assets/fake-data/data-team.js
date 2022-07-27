@@ -1,24 +1,24 @@
-import img1 from '../images/common/team6.png';
-import img2 from '../images/common/team7.png';
-import img3 from '../images/common/team8.png';
-import img4 from '../images/common/team9.png';
+import img1 from '../images/common/Dinesh_SP-Founder.png';
+import img2 from '../images/common/Sriram-Pandiyan-CTO.png';
+import img3 from '../images/common/Vijay-Web-Developer.png';
+import img4 from '../images/common/Padmapriya-Content-Writer.png';
 
 const dataTeam = [
     {
         id: 1,
         img: img1,
-        name: 'Esther Howard',
-        position: 'Co-founder & CEO',
+        name: 'Dinesh SP',
+        position: 'Founder & CEO',
         listsocial: [
             {
                 id: 1,
                 icon: 'fab fa-twitter',
-                link: '#'
+                link: 'https://twitter.com/0xkshatriyan'
             },
             {
                 id: 2,
                 icon: 'fab fa-linkedin',
-                link: '#'
+                link: 'https://www.linkedin.com/in/dinesh-kshatriyan-kshatriyan-eth-366b33135/'
             },
             {
                 id: 3,
@@ -30,7 +30,7 @@ const dataTeam = [
     {
         id: 2,
         img: img2,
-        name: 'Devon Lane',
+        name: 'Sriram Pandiya',
         position: 'CTO',
         listsocial: [
             {
@@ -53,18 +53,18 @@ const dataTeam = [
     {
         id: 3,
         img: img3,
-        name: 'Ralph Edwards',
-        position: 'Backend Engineer',
+        name: 'Vijay',
+        position: 'Web Developer',
         listsocial:  [
             {
                 id: 1,
                 icon: 'fab fa-twitter',
-                link: '#'
+                link: 'https://twitter.com/0xVAlpha'
             },
             {
                 id: 2,
                 icon: 'fab fa-linkedin',
-                link: '#'
+                link: 'https://www.linkedin.com/in/vijay-m-31ab84203/'
             },
             {
                 id: 3,
@@ -76,8 +76,8 @@ const dataTeam = [
     {
         id: 4,
         img: img4,
-        name: 'Esther Howard',
-        position: 'Co-founder & COO',
+        name: 'Padmapriya',
+        position: 'Content Writer',
         listsocial: [
             {
                 id: 1,

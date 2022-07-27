@@ -1,8 +1,7 @@
 import img1 from '../images/logo/W3T-Logo.jpeg'
 import img2 from '../images/logo/ATC-logo.svg'
 import img3 from '../images/logo/BBB-logo.png'
-import img4 from '../images/logo/logo4.png'
-import img5 from '../images/logo/logo5.png'
+import img4 from '../images/logo/Animation-logo.png'
 
 const dataPartner = [
     {
@@ -16,9 +15,6 @@ const dataPartner = [
     },
     {
         img: img4,
-    },
-    {
-        img: img5,
     },
 ]
 

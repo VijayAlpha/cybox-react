@@ -19,9 +19,9 @@ function SliderItem(props) {
     // const [modalShow, setModalShow] = useState(false);
 
     return (
-        <div className={`box-slider ${item.classAction}`}>
+        <div className={`box-slider slider__fill ${item.classAction}`}>
             <div className='bg-slider' alt="cybox" />
-            <div className="box-slider__main">
+            <div className="box-slider__main d-flex">
                 <div className="container">
                     <div className="row">
                         <div className="col-xl-6 col-md-12">
